@@ -9,6 +9,9 @@ const Pages: CollectionConfig = {
         relationTo: 'media',
     }
   ],
+  access: {
+    read: () => true
+  }
 }
 
 export default Pages
